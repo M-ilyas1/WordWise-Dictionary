@@ -40,8 +40,8 @@ button, input {
 
 /* User input */
 #input-main-container{
-    padding: 30px;
-    background-color: rgb(3, 3, 160);
+    padding: 40px;
+    background: linear-gradient(to right, rgb(5, 5, 164) 10%, rgb(46, 34, 218) 100%);
 }
 .input-container {
     background: rgb(237, 239, 243);
@@ -247,7 +247,9 @@ button, input {
 /* footer */
 .site-footer
 {
-  background-color: rgb(3, 3, 148);
+  /* background-color: rgb(3, 3, 148); */
+  background: linear-gradient(to right, rgb(5, 5, 164) 10%, rgb(49, 34, 218) 100%);
+
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -485,17 +487,13 @@ button, input {
 }
 
 @media screen and (max-width: 768px) {
-
-    .input-container {
-        /* max-width: calc(100% - 20px); */
+    .input-container{
+      min-width: 100%;
     }
     .input-container #query {
       min-width: 70%;
-      /* border: none;
-      padding: 7px 0;
-      background: none; */
-      /* border-bottom: 3px solid blue; */
-  }
+    }
+    
     .card {
         width: 100%;
     }
