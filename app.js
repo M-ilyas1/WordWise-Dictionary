@@ -87,7 +87,7 @@ const displayLoader = () => {
 
 const getErrorMessage = (err) => 
     `<section class="error-container flex-column">
-        <i class="fa-solid fa-face-frown icon"></i>
+        <i class="fa-solid fa-face-frown icon text-danger"></i>
         ${Number(err.toString().match(/\d{3}$/)) === 404
             ? `<h4 class="reason">Sorry, I couldn't find it.</h4>
                 <p class="suggestion">Please check your spelling or try again later.</p>` 
